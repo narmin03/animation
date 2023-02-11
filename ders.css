@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    width: 90%;
+    height: 800px;
+    background-color:#222e17;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    transition: 2s;
+    overflow: hidden;
+    
+
+    
+}
+.item{
+    width: 600px;
+    height: 300px;
+    margin: 1%;
+    background-color: #4c6733;
+    text-align:center;
+
+
+
+
+font-size: 60px;    
+    color: beige;
+
+
+
+
+
+}
+.item:first-child{
+    font-size: 80px;
+    align-self: center;
+}
+
